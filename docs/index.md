@@ -26,6 +26,7 @@ The FOAF Foundation is a community-led initiative building practical tools for f
 - [GrowOperative Pitch](growoperative/pitch.md) — The first app, explained simply
 - [FAQ](education/faq.md) — Common questions answered
 - [FOAF Marketplace Vision](foaf-marketplace/vision.md) — Where we're headed beyond food
+- [FOAF App Ecosystem](about/app-ecosystem.md) — Running list of app ideas built on FOAF
 
 ## For Builders
 
