@@ -56,17 +56,19 @@ The key insight is privacy. Regular people generally do not want a public intern
 
 ## Early Ideas
 
-### Relay Social App
+### Neotribes
 
-**Status:** Idea.
+**Status:** Idea; possible name for the social app.
 
-A social network where posts do not spread by algorithmic recommendation or global public broadcast. A post reaches someone outside the author's direct audience only when one of that person's contacts explicitly reposts or relays it.
+Neotribes is a possible name for the FOAF social app. It is a social network organized around subnets, communities, and trust paths rather than global algorithmic recommendation.
 
-The product question is not "what is trending?" but "who passed this to me, and why do I trust that path?"
+People in the same subnet or group may be able to see each other even when they are not directly connected. This gives a community a shared social space without requiring every member to add every other member as a direct contact.
 
-**Possible flows:** post, repost, quote, community-scoped relay, trust-path display, mute/block/report, hop-limit controls.
+It can also have a "grapevine" repost mechanic: a post reaches someone outside the author's direct audience when one of that person's contacts explicitly reposts or relays it. The product question is not "what is trending?" but "who passed this to me, and why do I trust that path?"
 
-**FOAF primitives used:** identity, contacts, communities, trust paths, claims, relay metadata.
+**Possible flows:** post, repost, quote, subnet feed, group feed, grapevine relay, trust-path display, mute/block/report, hop-limit controls.
+
+**FOAF primitives used:** identity, contacts, subnets, communities, memberships, trust paths, claims, relay metadata.
 
 ### Skill and Labor Exchange
 
@@ -84,6 +86,20 @@ This is worth preserving as an idea, but the product shape is not clear yet. It 
 - Which parts are FOAF infrastructure versus app-specific workflow?
 
 **FOAF primitives likely used:** identity, contacts, communities, claims, reputation signals, mutual credit, scheduling hooks.
+
+### Events, Classes, and Festivals
+
+**Status:** Idea.
+
+An app for organizing classes, workshops, meetups, community events, retreats, conferences, and eventually festival-scale gatherings.
+
+At the small end, this could handle class registration, attendance, waitlists, instructor profiles, ticketing, volunteer roles, and community-credit payments. At the larger end, it could support multi-day schedules, venues, stages, crews, vendor booths, participant groups, access passes, and organizer dashboards.
+
+The FOAF-specific angle is that event participation can be scoped by community, subnet, invitation, or trust path. A workshop can be open to a subnet, visible to contacts-of-contacts, or invite-only through known organizers. Instructors, vendors, volunteers, and attendees can carry claims or badges across events.
+
+**Possible flows:** create class, register, join waitlist, pay or pledge credit, check in, manage volunteers, assign organizer roles, publish festival schedule, issue attendance or facilitator badges.
+
+**FOAF primitives likely used:** identity, communities, memberships, invitations, claims, roles, mutual credit, subnet visibility, signed attendance records.
 
 ### Childcare Swaps and Care Networks
 
