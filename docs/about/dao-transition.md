@@ -1,5 +1,12 @@
 # FOAF Foundation DAO Transition
 
+!!! info "Status: protocol roadmap, not the current app"
+    This page describes the **FOAF protocol roadmap**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app has no DAO governance, no token holders, no on-chain integration, and no fee structures. The DAO transition described below is a longer-term protocol direction that is not implemented in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 The **FOAF Foundation** is a Decentralized Autonomous Organization (DAO) designed to empower communities through decentralized trading — starting with the **GrowOperative app** and scaling to the full **FOAF marketplace**. This document outlines the transition to DAO governance, giving community members control over system rules, fee structures, token distribution, and development priorities.
 
 ---

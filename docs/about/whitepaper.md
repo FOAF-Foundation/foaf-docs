@@ -1,5 +1,12 @@
 # FOAF Foundation Whitepaper
 
+!!! info "Status: protocol roadmap, not the current app"
+    This whitepaper describes the **FOAF protocol roadmap**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app is a **free barter-ledger marketplace** with no fees, no in-app purchases, no token integration, and no payment processing. The token mechanics, fees, and ecosystem features described here are part of the longer-term protocol design and are not present in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 ## Introduction
 
 Most people have something to offer their neighbors. Most people need something their neighbors could provide. The thing in the way is usually money, and not having enough of it.

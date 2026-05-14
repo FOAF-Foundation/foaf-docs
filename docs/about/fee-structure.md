@@ -1,5 +1,12 @@
 # GrowOperative Fee Structure
 
+!!! info "Status: protocol roadmap, not the current app"
+    This page describes the **FOAF protocol roadmap**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app is **free**: it has no transaction fees, no listing fees, no routing fees, no RHEO integration, and no payment processing. The fee mechanics described below are part of the longer-term protocol design and are not present in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 GrowOperative uses a dynamic, value-based fee system designed to reward network participants, prevent spam, and remain accessible — even for users trading small quantities or low-value goods.
 
 All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating value, but for illustration purposes, we assume **1 RHEO ≈ $1 USD (illustrative only)** during onboarding.

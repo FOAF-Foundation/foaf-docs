@@ -1,5 +1,10 @@
 # GrowOperative pitch
 
+!!! info "Status: pitch describes the full vision, not the current app"
+    This pitch describes the **full FOAF / GrowOperative protocol vision**. The GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0) is a **free barter-ledger marketplace** that implements only the social-trust mutual-credit primitive. It has no fees, no in-app purchases, no token integration, and no payment processing.
+
+    Token mechanics, FOAF/RHEO integration, and fee structures referenced below are part of the longer-term protocol design and are not present in the current app. When they are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 GrowOperative is the first application of the FOAF Foundation. It helps neighbors share surplus food using a mutual credit system that runs through trusted social connections rather than banks or payment processors. We've already soft-launched in Crawford Bay, BC, and the underlying infrastructure has been in development since the FOAF token contract was deployed to Ethereum in December 2018.
 
 ## The problem

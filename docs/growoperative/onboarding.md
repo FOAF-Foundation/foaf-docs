@@ -1,5 +1,12 @@
 # GrowOperative Onboarding Guide
 
+!!! info "Status: protocol roadmap, not the current app"
+    This guide describes the **full FOAF / GrowOperative protocol vision**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app is a **free barter-ledger marketplace** with no fees, no in-app purchases, no token integration, and no payment processing. The fees, RHEO routing, and trust-chain premiums described in this guide are part of the longer-term protocol design and are not present in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 **GrowOperative** is the first application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) empowering communities to trade gardening surplus using flexible, trust-based settlement. This guide helps gardeners, neighbors, and resilience enthusiasts list what they have, request items already listed, and participate in a decentralized network that supports sustainable food systems. Instructional explainer videos will launch alongside the May 2026 alpha.
 
 ---

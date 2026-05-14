@@ -1,5 +1,12 @@
 # FOAF Foundation Treasury & Operations
 
+!!! info "Status: protocol roadmap, not the current app"
+    This page describes the **FOAF Foundation's planned treasury and operating model**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app is **free**: no fees, no in-app purchases, no token integration, and no payment processing. Treasury and revenue mechanics described below are part of the longer-term protocol design and are not present in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 This document describes how the FOAF Foundation funds, manages, and sustains ongoing operations. It is a strategic complement to [Tokenomics](./tokenomics.md) and [Fee Structure](./fee-structure.md): where those documents define the token design and fee rates, this document defines the treasury model, revenue streams, operational costs, and sustainability math that make those economics viable in practice.
 
 Target audience: foundation team, advisors, prospective investors, future DAO voters, and anyone evaluating whether FOAF is operationally sustainable.

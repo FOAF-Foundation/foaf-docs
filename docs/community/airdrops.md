@@ -1,5 +1,12 @@
 # FOAF Foundation Airdrops
 
+!!! info "Status: protocol roadmap, not the current app"
+    This page describes the **FOAF protocol roadmap**. It is not a description of the GrowOperative iOS / Android app currently available on the App Store and Google Play (version 1.0).
+
+    The shipped app does not distribute, hold, or transact with FOAF tokens, RHEO, or any other cryptocurrency. It is a free barter-ledger marketplace. The airdrop mechanics described below are part of the longer-term protocol design and are not present in the current app.
+
+    When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
+
 The **FOAF Foundation** uses airdrops to distribute **FOAF tokens**, bootstrapping adoption of the **GrowOperative app** and building the trust-layered ecosystem behind the future **FOAF marketplace**.
 
 FOAF tokens are issued directly to gardeners, resilience communities, node builders, and contributors — enabling them to earn RHEO via staking, participate in governance, and extend access to others through trust chains.

@@ -30,6 +30,26 @@ Orchardly is a harvest operations app for orchards and similar crews. It tracks 
 
 ## Planned or Likely
 
+### Pure Credit App
+
+**Status:** Concept; needs a name. Inspired by the original Trustlines app (Berlin, c. 2018-2019).
+
+A direct UI for the FOAF credit primitive itself: managing trustlines, creating and tracking IOUs, sending and receiving payments through the credit graph, viewing the network of obligations, settling balances. No trade context wrapping the credit — just the credit graph as its own product.
+
+Where the marketplace and personal lending apps wrap credit inside vertical workflows, this app exposes credit as its own user-facing surface. Useful for:
+
+- IOUs between friends with no trade context ("I owe you $20")
+- Settling shared expenses (rent splits, dinner bills, group trips)
+- Recording old debts that span multiple contexts
+- Multi-hop payments through the trust graph for users who want direct access to that mechanism
+- Power-users who want to see and manage the underlying credit relationships that other apps create
+
+This sits at the boundary of the App Boundary Rule below. The credit primitive is FOAF infrastructure, but a user-facing UI for it is still an app distinct from the protocol implementation. A thin app over a thick protocol.
+
+**Naming open question:** the "Trustlines" name belongs to the Berlin project. Candidates worth considering: Tabs (informal), Tally (historical tally-stick credit reference), Pact, or something protocol-aligned. The name should reflect the casual everyday-IOU nature while signaling the credit-primitive scope.
+
+**FOAF primitives used:** identity, contacts, trustlines, mutual credit, routing, settlement.
+
 ### General Marketplace
 
 **Status:** Planned direction, partly captured in the FOAF Marketplace docs.
