@@ -4,6 +4,11 @@ Welcome to the documentation hub for the **FOAF (Friend of a Friend) Foundation*
 
 Our first project, **GrowOperative**, turns surplus garden produce into local economic power using mutual credit and trust-routed exchange.
 
+## Download GrowOperative
+
+- **iOS:** [Get on the App Store](https://apps.apple.com/app/growoperative/id6767721866)
+- **Android:** in closed testing — public release coming soon. Email [support@growoperative.app](mailto:support@growoperative.app) for tester access.
+
 ---
 
 ## Our Purpose

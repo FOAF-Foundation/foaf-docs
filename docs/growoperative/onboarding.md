@@ -7,6 +7,11 @@
 
     When these features are ready to ship inside the iOS or Android apps, any paid functionality will be implemented via Apple's In-App Purchase and Google Play Billing per platform guidelines.
 
+## Download
+
+- **iOS (App Store):** [apps.apple.com/app/growoperative/id6767721866](https://apps.apple.com/app/growoperative/id6767721866)
+- **Android (Google Play):** in closed testing — request access by emailing [support@growoperative.app](mailto:support@growoperative.app). Public release in May 2026.
+
 **GrowOperative** is the first application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) empowering communities to trade gardening surplus using flexible, trust-based settlement. This guide helps gardeners, neighbors, and resilience enthusiasts list what they have, request items already listed, and participate in a decentralized network that supports sustainable food systems. Instructional explainer videos will launch alongside the May 2026 alpha.
 
 ---
