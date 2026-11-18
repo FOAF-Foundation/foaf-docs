@@ -26,6 +26,20 @@ Orchardly is a harvest operations app for orchards and similar crews. It tracks 
 
 **FOAF primitives used:** identity, contacts, memberships, invitations, claims, app-scoped roles.
 
+### OnLoan
+
+**Status:** Live at [onloan.net](https://onloan.net).
+
+OnLoan is for lending your things to people you already know: a car, a trailer, a tool, camping gear. A loan needs an existing trustline between the two people, so it only ever happens between contacts, never strangers.
+
+The owner sets a rate per kilometre, day, or hour, and OnLoan meters the actual use. When the item comes back, the two people settle the exact amount, either in cash or as mutual credit on the FOAF network. There are no deposits and no interest. Each person signs their own half of the settlement.
+
+Privacy matters here. Most people do not want a public online inventory of what they own. Because OnLoan works over the trust graph, what you lend stays between you and the people you trust.
+
+OnLoan holds very little of its own data. Identity and contacts come from FOAF's identity service, and balances and transfers live on the FOAF ledger, so a debt between two people is the same trustline whether it was recorded in OnLoan or GrowOperative.
+
+**FOAF primitives used:** identity, contacts, trustlines, mutual credit, signed bilateral settlement.
+
 ---
 
 ## Planned or Likely
@@ -36,7 +50,7 @@ Orchardly is a harvest operations app for orchards and similar crews. It tracks 
 
 A direct UI for the FOAF credit primitive itself: managing trustlines, creating and tracking IOUs, sending and receiving payments through the credit graph, viewing the network of obligations, settling balances. No trade context wrapping the credit — just the credit graph as its own product.
 
-Where the marketplace and personal lending apps wrap credit inside vertical workflows, this app exposes credit as its own user-facing surface. Useful for:
+Where GrowOperative, OnLoan, and the marketplace wrap credit inside vertical workflows, this app exposes credit as its own user-facing surface. Useful for:
 
 - IOUs between friends with no trade context ("I owe you $20")
 - Settling shared expenses (rent splits, dinner bills, group trips)
@@ -59,18 +73,6 @@ A broader marketplace for non-food goods, services, tools, skills, and local hel
 **Possible modes:** buy, sell, trade, give away, request help, offer services.
 
 **FOAF primitives used:** identity, contacts, trust paths, mutual credit, routing, claims, community visibility rules.
-
-### Personal Lending App
-
-**Status:** Concept; needs a name. Do not use "Lendly" as the public name.
-
-A peer-to-peer app for lending, borrowing, or renting physical goods directly between people: tools, vehicles, trailers, farm equipment, camping gear, kitchen equipment, and other durable assets.
-
-The key insight is privacy. Regular people generally do not want a public internet inventory of their possessions. FOAF's trust-graph visibility changes the shape: a listing can travel only to trusted contacts, contacts-of-contacts, or specific communities.
-
-**Possible flows:** request to borrow, owner approval, deposit or credit terms, handoff confirmation, before/after condition photos, return confirmation, dispute record.
-
-**FOAF primitives used:** identity, contacts, communities, trust paths, claims, mutual credit, signed agreements.
 
 ---
 
@@ -131,11 +133,11 @@ Childcare swaps and care networks are a high-trust form of local labor exchange.
 
 ### Tool Library Hub
 
-**Status:** Idea; related to the Personal Lending App, but distinct.
+**Status:** Idea; related to OnLoan, but distinct.
 
 A tool library app for community-owned or co-op-owned inventories of shared tools and equipment.
 
-This is different from the Personal Lending App. The lending app is mainly direct person-to-person lending: Robin lends a car, trailer, weed whacker, or chainsaw to someone he trusts. A tool library is a hub with its own identity, memberships, policies, inventory, checkout rules, and credit account.
+This is different from OnLoan, which is direct person-to-person lending: one person lends a car, trailer, or chainsaw to someone they already trust. A tool library is a hub with its own identity, memberships, policies, inventory, checkout rules, and credit account.
 
 The hub may own some tools directly while also surfacing supplemental tools listed by members connected to it. A community could therefore operate a shared catalog that mixes library-owned inventory with member-owned inventory, while keeping the accounting clear.
 
