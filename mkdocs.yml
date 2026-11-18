@@ -101,6 +101,7 @@ nav:
   - Technical:
       - Overview: technical/overview.md
       - Architecture: technical/architecture.md
+      - As-Built Review: https://foaf.foundation/review/
       - Protocol Vision: technical/protocol-vision.md
       - FOAF as a DeFi Protocol: technical/defi-protocol.md
       - Roadmap: technical/roadmap.md
