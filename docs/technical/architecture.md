@@ -4,6 +4,9 @@ The FOAF Foundation powers a decentralized trade network through its growing sui
 
 This document outlines the structure behind GrowOperative and the broader FOAF Marketplace. All components are built to support pricing in local currencies, multi-path trust routing, and smooth onboarding without technical knowledge.
 
+!!! note "The system as it runs today"
+    This page describes the design. For what is deployed, see the [as-built review](https://foaf.foundation/review/). Its [schema map](https://foaf.foundation/review/schema/) covers every table in the three services, read from source at a named commit. Its [architecture page](https://foaf.foundation/review/architecture/) shows what runs where, checked against the live services and dated.
+
 ---
 
 ## System Overview
